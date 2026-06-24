@@ -1,0 +1,91 @@
+.page-timer .timer-section {
+  width: 100%;
+}
+
+.page-timer #datetime-picker {
+  width: 272px;
+  height: 40px;
+  margin-right: 8px;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+  background-color: #ffffff;
+
+  outline: transparent;
+  transition: border-color 250ms ease;
+}
+
+.page-timer #datetime-picker:hover {
+  border-color: #000000;
+}
+
+.page-timer #datetime-picker:focus {
+  border-color: #4e75ff;
+}
+
+.page-timer #datetime-picker:disabled {
+  color: #808080;
+  background-color: #fafafa;
+  border-color: #808080;
+}
+
+.page-timer [data-start] {
+  min-width: 75px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #4e75ff;
+
+  transition: background-color 250ms ease;
+}
+
+.page-timer [data-start]:hover,
+.page-timer [data-start]:focus {
+  background-color: #6c8cff;
+}
+
+.page-timer [data-start]:disabled {
+  color: #989898;
+  background-color: #cfcfcf;
+}
+
+.page-timer .timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.page-timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-timer .value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.page-timer .label {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #2e2f42;
+}

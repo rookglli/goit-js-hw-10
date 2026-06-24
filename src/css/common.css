@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, Arial, sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+input {
+  font-family: inherit;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 36px 24px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: #4e75ff;
+}
+
+.back-link:hover,
+.back-link:focus {
+  color: #6c8cff;
+}

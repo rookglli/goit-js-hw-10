@@ -1,0 +1,115 @@
+.page-snackbar .snackbar-section {
+  width: 100%;
+}
+
+.page-snackbar .form {
+  width: 360px;
+}
+
+.page-snackbar .form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+}
+
+.page-snackbar input[name='delay'] {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+  background-color: #ffffff;
+
+  outline: transparent;
+  transition: border-color 250ms ease;
+}
+
+.page-snackbar input[name='delay']:hover {
+  border-color: #000000;
+}
+
+.page-snackbar input[name='delay']:focus {
+  border-color: #4e75ff;
+}
+
+.page-snackbar .form-fieldset {
+  width: 360px;
+  min-height: 78px;
+  margin-bottom: 24px;
+  padding: 24px 48px 8px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.page-snackbar .form-fieldset legend {
+  padding: 0 4px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+}
+
+.page-snackbar .form-fieldset label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #2e2f42;
+}
+
+.page-snackbar .form-fieldset label:first-of-type {
+  margin-right: 48px;
+}
+
+.page-snackbar input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+
+  cursor: pointer;
+}
+
+.page-snackbar button[type='submit'] {
+  width: 360px;
+  min-height: 40px;
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #4e75ff;
+
+  transition: background-color 250ms ease;
+}
+
+.page-snackbar button[type='submit']:hover,
+.page-snackbar button[type='submit']:focus {
+  background-color: #6c8cff;
+}

@@ -1,34 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snackbar</title>
+    <title>Promise generator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
-    <form class="form">
-      <label>
-        Delay (ms)
-        <input type="number" name="delay" required />
-      </label>
+  <body class="page-snackbar">
+    <main class="main">
+      <a class="back-link" href="./index.html">Back to home</a>
 
-      <fieldset>
-        <legend>State</legend>
+      <section class="snackbar-section">
+        <form class="form">
+          <label class="form-label">
+            Delay (ms)
+            <input type="number" name="delay" required />
+          </label>
 
-        <label>
-          <input type="radio" name="state" value="fulfilled" required />
-          Fulfilled
-        </label>
+          <fieldset class="form-fieldset">
+            <legend>State</legend>
 
-        <label>
-          <input type="radio" name="state" value="rejected" required />
-          Rejected
-        </label>
-      </fieldset>
+            <label>
+              <input type="radio" name="state" value="fulfilled" required />
+              Fulfilled
+            </label>
 
-      <button type="submit">Create notification</button>
-    </form>
+            <label>
+              <input type="radio" name="state" value="rejected" required />
+              Rejected
+            </label>
+          </fieldset>
+
+          <button type="submit">Create notification</button>
+        </form>
+      </section>
+    </main>
 
     <script type="module" src="./js/2-snackbar.js"></script>
   </body>
